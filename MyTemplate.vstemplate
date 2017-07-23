@@ -1,0 +1,38 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>GDKPSync</Name>
+    <Description>&lt;Keine Beschreibung verfügbar&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>GDKPSync</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="GDKPSync.csproj" File="GDKPSync.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <Folder Name="Connected Services" TargetFolderName="Connected Services" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="GDKPSync.cs">GDKPSync.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="GDKPSync.Designer.cs">GDKPSync.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="GDKPSync.resx">GDKPSync.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="GDKPSync_TemporaryKey.pfx">GDKPSync_TemporaryKey.pfx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Options.cs">Options.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Options.Designer.cs">Options.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Options.resx">Options.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Settings.cs">Settings.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
